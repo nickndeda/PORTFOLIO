@@ -1,0 +1,45 @@
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body {
+font-family: 'Inter', sans-serif;
+background: #0f0f14;
+color: #e5e7eb;
+line-height: 1.6;
+}
+a { color: #60a5fa; text-decoration: none; }
+header {
+min-height: 100vh;
+display: flex;
+align-items: center;
+justify-content: center;
+text-align: center;
+padding: 2rem;
+}
+.container { max-width: 900px; margin: auto; padding: 4rem 2rem; }
+h1 { font-size: 3rem; font-weight: 700; }
+h2 { font-size: 2rem; margin-bottom: 1rem; }
+p { margin-bottom: 1rem; color: #cbd5f5; }
+.btns a {
+display: inline-block;
+margin: 1rem 0.5rem;
+padding: 0.7rem 1.4rem;
+border-radius: 6px;
+background: #1f2933;
+transition: 0.3s;
+}
+.btns a:hover { background: #374151; }
+.skills, .projects {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+gap: 1.5rem;
+}
+.card {
+background: #1a1a24;
+padding: 1.5rem;
+border-radius: 10px;
+}
+footer {
+text-align: center;
+padding: 2rem;
+color: #9ca3af;
+border-top: 1px solid #1f2933;
+}
